@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Tracker Suggester</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row row-border bg-beige">
+        <h4>Favorite Things:</h4>
+        <div class="col-md-12 col-noborder">
+            <label for="Thing1">Thing One:</label>
+            <input id="Thing1" class="form-control" type="text">
+        </div>
+        <form id="response1">
+          <button type="submit" class="btn btn-success">Favorite Thing 1!</button>
+          <div id="fav1" class="row row-border bg-info">
+          </div>
+        </form>
+      </div>
+      <div class="row row-border bg-beige">
+        <div class="col-md-12 col-noborder">
+            <label for="Thing2">Thing Two:</label>
+            <input id="Thing2" class="form-control" type="text">
+        </div>
+        <form id="response2">
+          <button type="submit" class="btn btn-success">Favorite Thing 2!</button>
+          <div id="fav2" class="row row-border bg-info">
+          </div>
+        </form>
+      </div>
+      <div class="row row-border bg-beige">
+        <div class="col-md-12 col-noborder">
+            <label for="Thing3">Thing Three:</label>
+            <input id="Thing3" class="form-control" type="text">
+        </div>
+        <form id="response3">
+          <button type="submit" class="btn btn-success">Favorite Thing 3!</button>
+          <div id="fav3" class="row row-border bg-info">
+          </div>
+        </form>
+      </div>
+      <p>List of things
+        <ul id="list">
+        </ul>
+      </p>
+    </div>
+  </body>
+</html>
